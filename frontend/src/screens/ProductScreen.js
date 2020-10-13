@@ -11,7 +11,7 @@ const ProductScreen = ({ match }) => {
         axios.get(`/api/products/${match.params}`).then(res => {
             setProduct(res.data);
         }).catch(err => console.log(err));
-    }, []);
+    }, [match]);
 
     return (
         <div>
