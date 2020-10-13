@@ -1,0 +1,27 @@
+{
+  "name": "mern-ecommerce",
+  "version": "1.0.0",
+  "description": "Runespeakers Edda MERN Shopping Cart App",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node backend/server",
+    "server": "nodemon backend/server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vincesanders/MERN-ecommerce.git"
+  },
+  "author": "Vincent Sanders",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vincesanders/MERN-ecommerce/issues"
+  },
+  "homepage": "https://github.com/vincesanders/MERN-ecommerce#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.5"
+  }
+}
